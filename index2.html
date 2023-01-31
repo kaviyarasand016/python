@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+     .container2{
+            height: 80px;
+            width: 0px;
+            border-radius: 50%;
+            border: 5px solid rgb(247, 43, 53);
+            border-top-color:black;
+            border-bottom-color:orangered;
+            position: absolute;
+            animation: start 43200s linear;
+            animation-iteration-count: infinite;
+     }
+     .container1{
+            display: flex;
+           justify-content: center;
+            align-items: center;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            
+            border: 5px solid green;
+            box-sizing: border-box;
+            border-top-color:orangered;
+            border-bottom-color:orangered;
+            position: relative;
+            
+     }
+        .start{
+            height: 110px;
+            width: 0px;
+            border-radius: 50%;
+            border: 5px solid rgb(236, 41, 149);
+            box-sizing: border-box;
+            border-top-color:black;
+            border-bottom-color:orangered;
+            position: absolute;
+            animation: start 3600s linear;
+            animation-iteration-count: infinite;
+            
+        }
+        .container3{
+            display: flex;
+            flex-direction: column;
+            height: 160px;
+            width: 0px;
+            border-radius: 50%;
+            border: 5px solid rgb(81, 12, 146);
+            box-sizing: border-box;
+            border-top-color:black;
+            
+            border-bottom-color:orangered;
+            position: absolute;
+        
+            animation: start 60s linear;
+            animation-iteration-count: infinite;
+        }
+        @keyframes start{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        
+    .container4{
+        display: flex;
+        flex-direction: column;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        border: 5px solid black;
+    }
+    .box{
+        width: 40%;
+        height: 5px;
+        border-radius: 20%;
+        background-color: blue;
+        align-items: center;
+        
+        animation: start 1s linear;
+    }
+    @keyframes box{
+
+            
+            0%{
+            transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+    }
+
+</style>
+<body>
+    <div class="container">
+        
+        <div class="container1">
+            <div class="container2">
+
+            </div>
+            <div class="start">
+           
+            </div>
+            <div class="container3">
+                
+            </div>
+        </div>
+        
+        
+     </div>
+     
+     <div class="container4">
+        <div class="box">
+
+        </div>
+        <div class="box1">
+
+        </div>
+    </div>
+    
+</body>
+</html 
